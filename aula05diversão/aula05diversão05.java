@@ -1,0 +1,15 @@
+package aula05diversão;
+
+import java.util.Scanner;
+
+public class aula05diversão05 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Informe o número: ");
+        int numero=sc.nextInt();
+
+        for(int i=1;i<=10;i++)
+            System.out.println(numero+" X "+i+" = "+(numero*i));
+        sc.close();
+    }
+}
